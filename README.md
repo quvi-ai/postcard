@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/calendar.png" alt="Postcard showing a month of planned social media posts on a calendar" width="100%">
+  <img src="docs/screenshots/calendar.png" alt="Postcard's week view: each day shows the post's cover image, its channels and whether it is published, ready or approved" width="100%">
 </p>
 
 # Postcard
@@ -28,36 +28,39 @@ Plan, edit the recipe, produce, approve, or just ask in chat:
 
 Answer a few questions about your business, pick how often you want to post and whether you prefer more photos or more video. Postcard drafts a few weeks of posts and puts them on your calendar. Drafts are free, so you can change, move or delete them before anything is made.
 
-![Making a new plan: start date, number of weeks, posts per week and the mix of images and video, with an estimated cost](docs/screenshots/plan.png)
+![Making a new plan: start date, number of weeks, posts and videos per week and the mix of photos and video, with the estimated cost](docs/screenshots/plan.png)
 
 ### Every post is a short recipe you can edit
 
-Each post starts as a few plain sentences: what is on screen, who or what is in it, the mood. Edit the words, press **Rewrite** for a fresh idea, or drag the post to another day. Add your logo, products and people to the library once and mention them by name, and Postcard uses the real thing instead of inventing one.
+Each post starts as a few plain sentences: what is on screen, who or what is in it, the mood. Edit the words, press **Rewrite** for a fresh idea, or drag the post to another day. The date, channels, format and size stay right below the recipe, so you can change them at any time. Images come in the size each feed likes: square, 4:5 portrait, 9:16 full screen, 2:3 for Pinterest or 16:9 wide.
 
-![A planned post opened from the calendar, showing its channels, format and editable recipe](docs/screenshots/recipe.png)
+Add your logo, products and people to the library once and mention them by name, and Postcard uses the real thing instead of inventing one. In a carousel, Postcard understands when the slides show the same product in other colours, from other angles or step by step, and keeps it the same product on every slide.
+
+![A planned carousel opened from the calendar: the editable recipe, then its date, channels, format and size](docs/screenshots/recipe.png)
 
 ### See the cost before anything is made
 
 Images and videos are made by QUVIAI in the cloud and use credits from your QUVIAI account. Planning, recipes, captions and chat are free. Postcard shows you the exact cost and your balance first, and waits for your OK. Nothing is spent in the background.
 
-![A confirmation asking to spend 67 credits for 15 posts, with the current balance](docs/screenshots/produce.png)
+![A confirmation asking to produce 14 posts for about 55 credits, with the current balance](docs/screenshots/produce.png)
 
 ### You have the last word
 
-When a post is ready, look at the images and read the text for each channel. Approve it in one click, or mark only the part you don't like, such as one slide or one caption, and Postcard redoes just that part. Copy the text and open the folder with the files when you're ready to post. Postcard never posts for you.
+When a post is ready, look at the images and read the text for each channel; each channel is shown with its logo and name. Approve it in one click, or mark only the part you don't like, such as one slide or one caption, and Postcard redoes just that part. Copy the text and open the folder with the files when you're ready to post. Postcard never posts for you.
 
-![A finished carousel ready for review: three slides on the left, the hook, caption and hashtags for Instagram on the right, with Approve and Regenerate buttons](docs/screenshots/approve.png)
+![A finished carousel ready for review: three slides on the left, the hook, caption and hashtags for Instagram on the right, with Approve & share, Approve and Regenerate buttons](docs/screenshots/approve.png)
 
 ### Or just ask
 
 Open **Chat** and say what you want in plain words: "produce next week's posts", "how many credits do I have?", "make the Instagram text of the last post warmer". Postcard shows you what it is about to do and what it costs, and does nothing until you press **Confirm**.
 
-![The chat panel next to the calendar, proposing to produce two posts for about 4 credits, with Confirm and Cancel buttons](docs/screenshots/chat.png)
+![The chat panel next to the calendar, proposing to produce next week's four posts for about 17 credits, with Confirm and Cancel buttons](docs/screenshots/chat.png)
 
 ### Also included
 
 - **Your logo on every post**, as a small watermark and a short closing card on videos, at no credit cost.
 - **Your brand rules followed** in plans, recipes and captions once you add a brand or style document.
+- **Clean product photos**: remove the background from a product photo in the library with one click, at no credit cost. Your original photo is kept, so you can switch back.
 - **Your own videos**: Postcard writes the captions, hashtags and thumbnail without making anything new, at no credit cost.
 - **Text that fits each channel**, with character and hashtag counts per platform.
 - **Your language**: the app speaks English, German, French and Turkish, and posts can be written in your customers' language.
@@ -67,9 +70,9 @@ Open **Chat** and say what you want in plain words: "produce next week's posts",
 
 ## Private by design: the writing AI runs on your computer
 
-![First-run setup with the built-in writing model selected: one download, no account, plans and writes offline](docs/screenshots/welcome.png)
+![First-run setup with the recommended built-in AI model: a one-time 4.8 GB download that works offline, with no account](docs/screenshots/welcome.png)
 
-During setup you choose the AI model that writes your text. The recommended choice is **Built-in**: a model that **runs on your own computer**. It is a one-time download (about 4.8 GB), needs no account, and plans and writes even when you are offline. It thinks up your plan, writes your recipes and captions, and answers you in chat. It does not make images or videos; QUVIAI does that, as described below.
+During setup you choose the AI model that writes your text. The recommended choice is **Built-in**: a model that **runs on your own computer**. It is a one-time download (about 4.8 GB), needs no account, and plans and writes even when you are offline. It uses your graphics card when you have one, and your processor when you don't. It thinks up your plan, writes your recipes and captions, and answers you in chat. It does not make images or videos; QUVIAI does that, as described below.
 
 What Built-in means for you:
 
@@ -97,7 +100,7 @@ Get the latest version from the **[Releases page](https://github.com/quvi-ai/pos
 ## System requirements
 
 - **Windows** 10 or 11, 64-bit; **macOS** 11 Big Sur or newer on Apple silicon (Intel Macs are not supported); or **64-bit Linux** (Ubuntu 22.04 or newer for the `.deb`).
-- **Memory:** 8 GB of RAM at minimum; 16 GB recommended for the built-in AI model. On slower machines, writing a post can take several minutes.
+- **Memory:** 8 GB of RAM at minimum; 16 GB recommended for the built-in AI model. A graphics card makes it noticeably faster; without one, writing a post can take several minutes.
 - **Disk space:** about 6 GB free for the app and the built-in AI model, plus room for your finished posts.
 - **Internet:** needed to sign in, to download the built-in model once, and to make images and videos. Planning and writing work offline with the built-in model.
 - **A QUVIAI account** with credits to make images and videos. You can sign in with email or Google during setup. Your password is never stored.
